@@ -3,8 +3,7 @@
  *
  * @author Erel Segal-Halevi
  * @since 2019-02
- *//*
-
+ */
 
 #include <iostream>
 #include <sstream>
@@ -54,9 +53,7 @@ int main() {
 
       .setname("...")
 
-      .print(cout, */
-/*show_grade=*//*
-false);
+      .print(cout, /*show_grade=*/false);
       grade = testcase.grade();
     } else {
       testcase.print_signal(signal);
@@ -65,4 +62,3 @@ false);
     cout <<  "*** Grade: " << grade << " ***" << endl;
     return grade;
 }
-*/
